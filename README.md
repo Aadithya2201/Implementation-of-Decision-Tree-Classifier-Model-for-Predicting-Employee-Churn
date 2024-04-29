@@ -8,11 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Import pandas
-2. Import Decision tree classifier
-3. Fit the data in the model
-4. Find the accuracy score
-
+step 1.Start.
+step 2.Import pandas.
+step 3. Import Decision tree classifier.
+step 4. Fit the data in the model.
+step 5. Find the accuracy score.
+step 6.Stop.
 ## Program:
 ```
 /*
@@ -30,6 +31,8 @@ from sklearn.preprocessing import LabelEncoder
 le=LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"])
 data.head()
+```
+```
 x=data[["satisfaction_level","last_evaluation","number_project","average_montly_hours","time_spend_company","Work_accident","promotion_last_5years","salary"]]
 x.head()    #no departments and no left
 y=data["left"]
