@@ -34,6 +34,8 @@ data.isnull().sum()
 data["left"].value_counts()
 ```
 ```
+
+
 from sklearn.preprocessing import LabelEncoder
 le=LabelEncoder()
 data["salary"]=le.fit_transform(data["salary"])
